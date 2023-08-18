@@ -21,6 +21,11 @@ public class Mavenproject3 {
             System.out.print("Ingrese el número " + (i + 1) + ": ");
             numbers[i] = scanner.nextInt();
         }
+        //ordena los números ingresados utilizando burbuja
+        bubbleSort(numbers);
+        
+        System.out.println("Números ordenados:");
+        for (int num : numbers) 
 
 
 
