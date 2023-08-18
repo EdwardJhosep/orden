@@ -26,8 +26,17 @@ public class Mavenproject3 {
         
         System.out.println("Números ordenados:");
         for (int num : numbers) 
+        //creo un system de impresion 
+        {
+            System.out.print(num + " ");
+        }
+        
+        scanner.close();
+    }
 
 
 
     }
-}
+
+
+
